@@ -41,7 +41,7 @@
     "zustand": "^3.5.2"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "craco --openssl-legacy-provider start",
     "start:cli": "cross-env BROWSER=none craco start",
     "build": "craco build",
     "test": "is-ci \"test:coverage\" \"test:jest\"",
